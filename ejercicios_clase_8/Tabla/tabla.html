@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>Tabla</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<script nonce="f67b2e08-75a3-48ed-bd70-f400f88ba03e">(function(w,d){!function(bb,bc,bd,be){bb[bd]=bb[bd]||{};bb[bd].executed=[];bb.zaraz={deferred:[],listeners:[]};bb.zaraz.q=[];bb.zaraz._f=function(bf){return async function(){var bg=Array.prototype.slice.call(arguments);bb.zaraz.q.push({m:bf,a:bg})}};for(const bh of["track","set","debug"])bb.zaraz[bh]=bb.zaraz._f(bh);bb.zaraz.init=()=>{var bi=bc.getElementsByTagName(be)[0],bj=bc.createElement(be),bk=bc.getElementsByTagName("title")[0];bk&&(bb[bd].t=bc.getElementsByTagName("title")[0].text);bb[bd].x=Math.random();bb[bd].w=bb.screen.width;bb[bd].h=bb.screen.height;bb[bd].j=bb.innerHeight;bb[bd].e=bb.innerWidth;bb[bd].l=bb.location.href;bb[bd].r=bc.referrer;bb[bd].k=bb.screen.colorDepth;bb[bd].n=bc.characterSet;bb[bd].o=(new Date).getTimezoneOffset();if(bb.dataLayer)for(const bo of Object.entries(Object.entries(dataLayer).reduce(((bp,bq)=>({...bp[1],...bq[1]})),{})))zaraz.set(bo[0],bo[1],{scope:"page"});bb[bd].q=[];for(;bb.zaraz.q.length;){const br=bb.zaraz.q.shift();bb[bd].q.push(br)}bj.defer=!0;for(const bs of[localStorage,sessionStorage])Object.keys(bs||{}).filter((bu=>bu.startsWith("_zaraz_"))).forEach((bt=>{try{bb[bd]["z_"+bt.slice(7)]=JSON.parse(bs.getItem(bt))}catch{bb[bd]["z_"+bt.slice(7)]=bs.getItem(bt)}}));bj.referrerPolicy="origin";bj.src="/cdn-cgi/zaraz/s.js?z="+btoa(encodeURIComponent(JSON.stringify(bb[bd])));bi.parentNode.insertBefore(bj,bi)};["complete","interactive"].includes(bc.readyState)?zaraz.init():bb.addEventListener("DOMContentLoaded",zaraz.init)}(w,d,"zarazData","script");})(window,document);</script></head>
+<body>
+<section class="ftco-section">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-6 text-center mb-4">
+<h2 class="heading-section">Productos</h2>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<div class="table-wrap">
+<table class="table">
+<thead class="thead-primary">
+<tr>
+<th>&nbsp;</th>
+<th>&nbsp;</th>
+<th>Producto</th>
+<th>Precio</th>
+<th>Cantidad</th>
+<th>total</th>
+<th>&nbsp;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="alert" role="alert">
+<td>
+<label class="checkbox-wrap checkbox-primary">
+<input type="checkbox" checked>
+<span class="checkmark"></span>
+</label>
+</td>
+<td>
+<div class="img" style="background-image: url(imagenes/producto1.png);"></div>
+</td>
+<td>
+<div class="email">
+<span>Producto 1 </span>
+<span>Descripción 1</span>
+</div>
+</td>
+<td>$44.99</td>
+<td class="quantity">
+<div class="input-group">
+<input type="text" name="quantity" class="quantity form-control input-number" value="2" min="1" max="100">
+</div>
+</td>
+<td>$89.98</td>
+<td>
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true"><i class="fa fa-close"></i></span>
+</button>
+</td>
+</tr>
+<tr class="alert" role="alert">
+<td>
+<label class="checkbox-wrap checkbox-primary">
+<input type="checkbox">
+<span class="checkmark"></span>
+</label>
+</td>
+<td>
+<div class="img" style="background-image: url(images/product-2.png);"></div>
+</td>
+<td>
+<div class="email">
+<span>Producto 2 </span>
+<span>Descripción 2</span>
+</div>
+</td>
+<td>$30.99</td>
+<td class="quantity">
+<div class="input-group">
+<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+</div>
+</td>
+<td>$30.99</td>
+<td>
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true"><i class="fa fa-close"></i></span>
+</button>
+</td>
+</tr>
+<tr class="alert" role="alert">
+<td>
+<label class="checkbox-wrap checkbox-primary">
+<input type="checkbox">
+<span class="checkmark"></span>
+</label>
+</td>
+<td>
+<div class="img" style="background-image: url(images/product-3.png);"></div>
+</td>
+<td>
+<div class="email">
+<span>Producto 3 </span>
+<span>Descripción 3</span>
+</div>
+</td>
+<td>$35.50</td>
+<td class="quantity">
+<div class="input-group">
+<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+</div>
+</td>
+<td>$35.50</td>
+<td>
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true"><i class="fa fa-close"></i></span>
+</button>
+</td>
+</tr>
+<tr class="alert" role="alert">
+<td>
+<label class="checkbox-wrap checkbox-primary">
+<input type="checkbox">
+<span class="checkmark"></span>
+</label>
+</td>
+<td>
+<div class="img" style="background-image: url(images/product-4.png);"></div>
+</td>
+<td>
+<div class="email">
+<span>Producto 4 </span>
+<span>Descripción 4</span>
+</div>
+</td>
+<td>$76.99</td>
+<td class="quantity">
+<div class="input-group">
+<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+</div>
+</td>
+<td>$76.99</td>
+<td>
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true"><i class="fa fa-close"></i></span>
+</button>
+</td>
+</tr>
+<tr class="alert" role="alert">
+<td class="border-bottom-0">
+<label class="checkbox-wrap checkbox-primary">
+<input type="checkbox">
+<span class="checkmark"></span>
+</label>
+</td>
+<td class="border-bottom-0">
+<div class="img" style="background-image: url(images/product-1.png);"></div>
+</td>
+<td class="border-bottom-0">
+<div class="email">
+<span>Producto 5 </span>
+<span>Descripción 5</span>
+</div>
+</td>
+<td class="border-bottom-0">$40.00</td>
+<td class="quantity border-bottom-0">
+<div class="input-group">
+<input type="text" name="quantity" class="quantity form-control input-number" value="1" min="1" max="100">
+</div>
+</td>
+<td class="border-bottom-0">$40.00</td>
+<td class="border-bottom-0">
+<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+<span aria-hidden="true"><i class="fa fa-close"></i></span>
+</button>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"81e64de6db471a92","version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}' crossorigin="anonymous"></script>
+</body>
+</html>
