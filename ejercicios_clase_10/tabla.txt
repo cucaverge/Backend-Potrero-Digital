@@ -1,0 +1,7 @@
+1- SELECT * FROM `usuario`;
+2- SELECT telefono FROM `usuario` WHERE saldo <= 300;
+3- SELECT * FROM `usuario` WHERE nivel = 2;
+4- SELECT nombre, telefono FROM `usuario` WHERE marca IN ('NOKIA', 'BLACKBERRY', 'SONY');
+5- SELECT nombre, telefono FROM `usuario` WHERE marca IN ('LG', 'SAMSUNG', 'MOTOROLA');
+6- SELECT email FROM `usuario` WHERE email LIKE '%@gmail.com';
+7- SELECT MAX(saldo) AS Saldo_Maximo FROM `usuario` WHERE DATEDIFF(CURDATE(), fechaNacimiento) / 365 > 30;
